@@ -1,31 +1,39 @@
-// FOR
+// BREAK CONTINUE
 /**
- * Repetição
- * Mais utilizadas 
- * fica tudo em um alinha
+ * Intrução
+ * finalizar os loops
+ * break encerra uma instrução
+ * continue pula uma instrução para outra
  * 
- * COMO É MONTADA
- *  Palavra reservada FOR()
- * 1ª variável que vai fazer o incremento, ex: var i = 0
- * 2ª a condição, ex: i < 100 // em quantas partes vão aparecer
- *  incremento, ex: i++ // forma de repetição
+ * 
  */
 
-for(var i = 0; i < 100; i++ ){
-    console.log("E aqui vamos nós " + i);
+for(var y = 10; y > -3; y--){
+    console.log(y);
+
+    if( y === 5) {
+        break;
+    }
 }
 
-var arr = [1,2,3,4];
+console.log("funciona!");
 
-for(var j = 0; j < arr.length; j++ ){ // o length vai contar o que está dentro da array
-    console.log(arr[j]);
+
+var hj = 0;
+while(hj < 100){
+
+    hj += 10;
+
+    if(hj === 60){
+        console.log("funciona")
+        continue;
+    }
+
+    console.log("deule");
+
+    
 }
 
-console.log(arr.length); // conta o que tem dentro
 
-
-for(var x = 5; x <100; x*=3){
-    console.log(x);
-}
 
 
