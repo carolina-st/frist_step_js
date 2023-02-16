@@ -18,4 +18,4 @@ console.log(typeof frase);
 console.log(nomeCompleto +' '+ frase); // concatenação
 
 document.write(" Bem-vindo!!"); // isso faz com que seja escrito na própria tela HTML
-document.write('    Ele disse: "Obrigado por me receber"'); // é assim que se coloca aspas dentro das aspas
+document.write('Ele disse: "Obrigado por me receber"'); // é assim que se coloca aspas dentro das aspas
