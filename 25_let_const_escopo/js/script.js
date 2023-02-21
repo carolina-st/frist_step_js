@@ -1,35 +1,31 @@
  /**
-  * ESCOPO 
-  * Local especifico do código
+  * LET  e  CONST
   * 
-  * escopo local - variavel que só vai funcionar dentro do um lugar especifico com um if, function
-  * escopo global - variavel que fica setada não um porta o lugar ela pega. ex: var z =5;
+  * é como uma variável
+  * funciona como escopo local
+  * deixando tudo mais organizado
+  *  Pode ser usado para criar variável especifico para um for por exemplo.
   */
+let x = 1; // var x = 1;
 
-var x = 1; // Escopo global
-var y = 3; // Escopo global
+x = 12; // escopo global
 
-function teste() {
+console.log(x);
 
-    var z =0;
-    console.log(z);
+if(true) {
+
+    let x = 20;
+
+    console.log(x); // escopo local
+
+    const y =50;
+
+    console.log("const if " + y);
 }
 
-//console.log(z); //não pega pq está variavel não foi feita globalmente
+console.log(x);// chama o escopo global
 
-teste();
-
-
-function teste2() { // já é outro
-
-    var z =5;
-    console.log(z);
- }
-
-if(true){
-    var p =1;
+for( let x = 0; x < 10; x++) {
+    console.log(x);
 }
-console.log(p)
-
-
 
