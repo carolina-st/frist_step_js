@@ -2,7 +2,6 @@
 var arr = [1,2,3,4,5,6,7];
 
 arr.splice(2, 0, 3200); //conta pelo indice o 1º number / o 0 é pra deletar 0 elementos / o último é o número que vai adicionar
-
 console.log(arr);
 
 // removendo um elemento especifico com o splice
